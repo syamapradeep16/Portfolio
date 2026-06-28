@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Syama K Nair | Python Django Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="portfolio.css"/>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     NAVIGATION
+════════════════════════════════════════ -->
+<nav>
+  <div class="nav-logo">
+  <div class="logo-f">
+    <div class="logo-f-circle">SKN</div>
+    <div class="logo-f-right">
+      <div class="logo-f-name">SYAMA K NAIR</div>
+    </div>
+  </div>
+</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><button class="toggle-btn" onclick="toggleMode()">☀ Light</button></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════
+     HERO / HOME
+════════════════════════════════════════ -->
+<section id="home">
+  <div class="hero-grid container">
+
+    <!-- Left: Text Content -->
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <img src="images/badge.png" alt="Illinois Tech Badge"></br>Illinois Tech Certified</div>
+      <h1 class="hero-name">Syama<br><span>K Nair</span></h1>
+      <p class="hero-role">
+        <span class="typed-text" id="typedText"></span>
+        <span class="cursor"></span>
+      </p>
+      <p class="hero-summary">
+        Python & Django Developer with an M.Tech in Embedded Systems. Building scalable
+        full-stack web applications, RESTful APIs, and AI-driven platforms that bridge
+        hardware expertise with modern software engineering.
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">View Projects ↓</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+        <a href="Resume.pdf" class="btn btn-outline" onclick="alert('Attach your resume PDF and update the href to enable download.')">⬇ Resume</a>
+      </div>
+    </div>
+
+    <!-- Right: Avatar Visual -->
+    <div class="hero-visual">
+      <div class="hero-glow"></div>
+      <div class="hero-avatar-wrap">
+        <div class="hero-avatar-inner">
+            <img src="images/profile_photo.jpeg" alt="SKN">
+        </div>
+      </div>
+      <div class="float-badge badge-1">Illinois Tech Certified</div>
+      <div class="float-badge badge-2">University Rank Holder</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     ABOUT ME
+════════════════════════════════════════ -->
+<section id="about">
+  <div class="container reveal">
+    <div class="section-label">01 — About</div>
+    <h2 class="section-title">Who I Am</h2>
+    <div class="section-divider"></div>
+
+    <div class="about-grid">
+
+      <!-- Info Card -->
+      <div class="about-card">
+        <div class="about-stat">
+          <div class="about-stat-label">Location</div>
+          <div class="about-stat-value">Muscat, Sultanate of Oman</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat-label">Email</div>
+          <div class="about-stat-value">
+            <a href="mailto:syamakarthik@gmail.com">syamakarthik@gmail.com</a>
+          </div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat-label">Phone</div>
+          <div class="about-stat-value">00968-91204007</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat-label">LinkedIn</div>
+          <div class="about-stat-value">
+            <a href="http://www.linkedin.com/in/syamaknair1687" target="_blank">linkedin.com/in/syamaknair1687</a>
+          </div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat-label">GitHub</div>
+          <div class="about-stat-value">
+            <a href="https://github.com/syamapradeep16" target="_blank">github.com/syamapradeep16</a>
+          </div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat-label">Teaching Experience</div>
+          <div class="about-stat-value">3 Years (Assistant Professor, ECE)</div>
+        </div>
+        <div class="about-stat">
+          <div class="about-stat-label">Achievements</div>
+          <div class="about-stat-value">GATE Scorer • 4th Rank M.Tech • HackerEarth Badges</div>
+        </div>
+      </div>
+
+      <!-- Bio Text -->
+      <div class="about-text">
+        <p>
+        I am an Illinois Tech Certified Python & Django Developer with a strong academic and
+        professional background spanning both hardware and software engineering. My M.Tech in
+        Embedded Systems gave me deep expertise in FPGA design, Verilog/VHDL, and digital
+        architecture — skills I now blend with modern web development practices.
+        </p>
+        <p>
+          I specialize in building dynamic, full-stack web platforms using Django, REST Framework,
+          HTML5, CSS3, Bootstrap, and database systems like MySQL and SQLite3. I'm also experienced
+          in integrating AI-driven predictive models into web applications, and have hands-on
+          exposure to AWS cloud infrastructure.
+        </p>
+        <p>
+          Having served as an Assistant Professor for 3 years, I bring strong communication,
+          mentoring, and research skills to every team I join. I am passionate about combining my
+          engineering roots with software innovation to build scalable, high-performance applications.
+        </p>
+        <div class="competency-list">
+          <span class="competency-tag">Python Django</span>
+          <span class="competency-tag">AI & IoT</span>
+          <span class="competency-tag">Robotics & Embedded AI</span>
+          <span class="competency-tag">VLSI Design</span>
+          <span class="competency-tag">Digital Electronics</span>
+          <span class="competency-tag">Microcontroller & Sensors</span>
+          <span class="competency-tag">RESTful APIs</span>
+          <span class="competency-tag">MVC Architecture</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     SKILLS
+════════════════════════════════════════ -->
+<section id="skills">
+  <div class="container reveal">
+    <div class="section-label">02 — Skills</div>
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="section-divider"></div>
+
+    <div class="skills-grid">
+
+      <!-- Programming -->
+      <div class="skill-category">
+        <div class="skill-cat-icon">🐍</div>
+        <div class="skill-cat-title">Programming</div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Python</span><span>95%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Verilog</span><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>VHDL</span><span>78%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+        </div>
+      </div>
+
+      <!-- Web Development -->
+      <div class="skill-category">
+        <div class="skill-cat-icon">🌐</div>
+        <div class="skill-cat-title">Web Development</div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Django</span><span>90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>HTML5 & CSS3</span><span>88%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Bootstrap</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>JavaScript</span><span>70%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+        </div>
+      </div>
+
+      <!-- Database & Backend -->
+      <div class="skill-category">
+        <div class="skill-cat-icon">🗄️</div>
+        <div class="skill-cat-title">Database & Backend</div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Django REST Framework</span><span>88%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>MySQL</span><span>82%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>SQLite3</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>AWS</span><span>65%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+        </div>
+      </div>
+
+      <!-- Tools & Platforms -->
+      <div class="skill-category">
+        <div class="skill-cat-icon">🔧</div>
+        <div class="skill-cat-title">Tools & Platforms</div>
+        <div class="skill-item">
+          <div class="skill-name"><span>GitHub</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>VS Code</span><span>90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Xilinx ISE</span><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Python Anywhere</span><span>78%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     PROJECTS
+════════════════════════════════════════ -->
+<section id="projects">
+  <div class="container reveal">
+    <div class="section-label">03 — Projects</div>
+    <h2 class="section-title">Code & Creations</h2>
+    <div class="section-divider"></div>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-num">P — 01</div>
+        <div class="project-title">EduZphere Learning Management System</div>
+        <div class="project-desc">
+          A full-stack LMS web application developed and deployed using Django framework.
+          Supports course management, student enrollment, and content delivery with a
+          clean, responsive UI.
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Django</span>
+          <span class="project-tag">HTML/CSS</span>
+          <span class="project-tag">Bootstrap</span>
+          <span class="project-tag">SQLite</span>
+          <span class="project-tag">Python Anywhere</span>
+        </div>
+        <a href="https://github.com/syamapradeep16/MainProject-EduZphere-LMS" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">P — 02</div>
+        <div class="project-title">AI Land Price Prediction Model</div>
+        <div class="project-desc">
+          An AI-driven predictive model built using Python as part of the AI Boot Camp project.
+          Leverages machine learning techniques to estimate land prices based on location
+          and feature data.
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Machine Learning</span>
+          <span class="project-tag">AI</span>
+          <span class="project-tag">Data Analysis</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">P — 03</div>
+        <div class="project-title">Inventory Management System</div>
+        <div class="project-desc">
+          A Python & SQLite application implementing role-based CRUD operations for
+          inventory control. Supports admin and user roles with secure data management
+          and a clean terminal interface.
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">SQLite3</span>
+          <span class="project-tag">CRUD</span>
+          <span class="project-tag">Role-based Access</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">P — 04</div>
+        <div class="project-title">FPGA-based Feature Detection (M.Tech Thesis)</div>
+        <div class="project-desc">
+          Implemented a modified SIFT Description Algorithm on an FPGA platform for
+          embedded image feature detection. Developed using Verilog on the Xilinx ISE
+          design suite — research published in two international journals.
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">FPGA</span>
+          <span class="project-tag">Verilog</span>
+          <span class="project-tag">Xilinx ISE</span>
+          <span class="project-tag">Image Processing</span>
+          <span class="project-tag">SIFT</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">P — 05</div>
+        <div class="project-title">Automated Power Management System</div>
+        <div class="project-desc">
+          B.Tech main project — an automated power management system designed for industrial
+          environments, optimizing energy usage through sensor-driven control logic.
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">Embedded Systems</span>
+          <span class="project-tag">Microcontroller</span>
+          <span class="project-tag">Sensors</span>
+          <span class="project-tag">Industrial Automation</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">P — 06</div>
+        <div class="project-title">Automatic Water Level Controller</div>
+        <div class="project-desc">
+          B.Tech mini project — a PCB-based automatic water level controller using sensors
+          to monitor and regulate water levels, with relay-driven pump control.
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">PCB Design</span>
+          <span class="project-tag">Electronics</span>
+          <span class="project-tag">Sensors</span>
+          <span class="project-tag">Automation</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     EDUCATION & CERTIFICATIONS
+════════════════════════════════════════ -->
+<section id="education">
+  <div class="container reveal">
+    <div class="section-label">04 — Education & Certifications</div>
+    <h2 class="section-title">Academic Journey</h2>
+    <div class="section-divider"></div>
+
+    <!-- Timeline -->
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">2014 – 2016</div>
+        <div class="timeline-title">M.Tech — Embedded Systems</div>
+        <div class="timeline-sub">Sree Buddha College of Engineering, Alappuzha, Kerala • 4th Rank, University of Kerala</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">2005 – 2009</div>
+        <div class="timeline-title">B.Tech — Electronics & Communication Engineering</div>
+        <div class="timeline-sub">Vidya Academy of Science and Technology, Thrissur, Kerala</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">Recent</div>
+        <div class="timeline-title">Certificate of Technical Studies — AI-Driven Python Programming</div>
+        <div class="timeline-sub">Entri Elevate, Ernakulam</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">Recent</div>
+        <div class="timeline-title">Train The Trainer (TTT) — Robotics Instructor Course</div>
+        <div class="timeline-sub">AICRA (All India Council for Robotics & Automation) • Abira World, Delhi</div>
+      </div>
+    </div>
+
+    <!-- Certifications -->
+    <h3 class="cert-heading">Certifications</h3>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <div class="cert-icon">🏛️</div>
+        <div>
+          <div class="cert-name">Python Programming Certified User</div>
+          <div class="cert-org">Illinois Institute of Technology — Python, Django, DRF, MySQL, AWS</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">🤖</div>
+        <div>
+          <div class="cert-name">AI Driven Python Programming</div>
+          <div class="cert-org">Entri.app — Certificate of Completion</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">🎖️</div>
+        <div>
+          <div class="cert-name">Python Programming — Grade A+</div>
+          <div class="cert-org">NSDC Skill India / Entri Software Pvt Ltd</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">⚡</div>
+        <div>
+          <div class="cert-name">AI Boot Camp</div>
+          <div class="cert-org">UPCODE Software Labs, UAE</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">📚</div>
+        <div>
+          <div class="cert-name">Introduction to Research</div>
+          <div class="cert-org">NPTEL (IIT Madras)</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-icon">💻</div>
+        <div>
+          <div class="cert-name">HackerEarth — Novice & Amateur Badges</div>
+          <div class="cert-org">Python Programming Solutions</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     PUBLICATIONS
+════════════════════════════════════════ -->
+<section id="publications">
+  <div class="container reveal">
+    <div class="section-label">05 — Publications</div>
+    <h2 class="section-title">Research & Publications</h2>
+    <div class="section-divider"></div>
+
+    <div class="pub-list">
+      <div class="pub-card">
+        <div class="pub-title">"Modified SIFT for Image Feature Detection"</div>
+        <div class="pub-meta">Syama K Nair, Ragimol • International Journal of Science and Research, Volume 5, Issue 7 • July 2016</div>
+        <a href="https://www.ijsr.net/archive/v5i7/ART2016229.pdf" target="_blank" class="pub-link">Read Paper →</a>
+      </div>
+      <div class="pub-card">
+        <div class="pub-title">"Implementation of SIFT Algorithm for Image Feature Detection"</div>
+        <div class="pub-meta">Syama K Nair, Ragimol • International Journal of Electronics and Communication Engineering and Technology, Volume 7, Issue 5 • Pages 38–46</div>
+        <a href="https://iaeme.com/MasterAdmin/Journal_uploads/IJECET/VOLUME_7_ISSUE_5/IJECET_07_05_005.pdf" target="_blank" class="pub-link">Read Paper →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     CONTACT
+════════════════════════════════════════ -->
+<section id="contact">
+  <div class="container reveal">
+    <div class="section-label">06 — Contact</div>
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="section-divider" style="margin: 0 auto 3rem;"></div>
+
+    <div class="contact-wrap">
+      <p class="contact-intro">
+        I'm open to new opportunities, collaborations, or just a good tech conversation.
+        Feel free to reach out — I'll respond as soon as possible!
+      </p>
+      <div class="contact-links">
+        <a href="mailto:syamakarthik@gmail.com" class="contact-link">
+          <span class="contact-link-icon">✉️</span> syamakarthik@gmail.com
+        </a>
+        <a href="tel:+96891204007" class="contact-link">
+          <span class="contact-link-icon">📞</span> +968-91204007
+        </a>
+        <a href="http://www.linkedin.com/in/syamaknair1687" target="_blank" class="contact-link">
+          <span class="contact-link-icon">💼</span> LinkedIn
+        </a>
+        <a href="https://github.com/syamapradeep16" target="_blank" class="contact-link">
+          <span class="contact-link-icon">🐙</span> GitHub
+        </a>
+      </div>
+      <p class="contact-location">📍 Muscat, Sultanate of Oman</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     FOOTER
+════════════════════════════════════════ -->
+<footer>
+  <p>Designed & Built by <span>Syama K Nair</span> • © 2026 • All rights reserved</p>
+</footer>
+
+<!-- Scroll to Top Button -->
+<button id="scrollTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+
+<!-- ══════════════════════════════════════
+     JAVASCRIPT
+════════════════════════════════════════ -->
+<script>
+  /* ── TYPING ANIMATION ── */
+  const roles = [
+    'Python Django Developer',
+    'Full-Stack Web Developer',
+    'Embedded Systems Engineer',
+    'AI & IoT Enthusiast'
+  ];
+  let roleIndex = 0, charIndex = 0, deleting = false;
+  const typedEl = document.getElementById('typedText');
+
+  function type() {
+    const word = roles[roleIndex];
+    if (!deleting) {
+      typedEl.textContent = word.slice(0, ++charIndex);
+      if (charIndex === word.length) {
+        deleting = true;
+        setTimeout(type, 1800);
+        return;
+      }
+    } else {
+      typedEl.textContent = word.slice(0, --charIndex);
+      if (charIndex === 0) {
+        deleting = false;
+        roleIndex = (roleIndex + 1) % roles.length;
+      }
+    }
+    setTimeout(type, deleting ? 60 : 100);
+  }
+  type();
+
+  /* ── DARK / LIGHT MODE TOGGLE ── */
+  function toggleMode() {
+    document.body.classList.toggle('light-mode');
+    const btn = document.querySelector('.toggle-btn');
+    btn.textContent = document.body.classList.contains('light-mode') ? '🌙 Dark' : '☀ Light';
+  }
+
+  /* ── MOBILE HAMBURGER MENU ── */
+  function toggleNav() {
+    document.getElementById('navLinks').classList.toggle('open');
+  }
+
+  /* ── SCROLL TO TOP VISIBILITY ── */
+  const scrollBtn = document.getElementById('scrollTop');
+  window.addEventListener('scroll', () => {
+    scrollBtn.classList.toggle('visible', window.scrollY > 400);
+  });
+
+  /* ── SCROLL REVEAL ANIMATION ── */
+  const reveals = document.querySelectorAll('.reveal');
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(r => revealObserver.observe(r));
+
+  /* ── SKILL BAR ANIMATION ── */
+  const barObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.querySelectorAll('.skill-fill').forEach(bar => {
+          bar.style.width = bar.dataset.width + '%';
+        });
+      }
+    });
+  }, { threshold: 0.2 });
+  document.querySelectorAll('.skill-category').forEach(c => barObserver.observe(c));
+
+  /* ── CLOSE MOBILE NAV ON LINK CLICK ── */
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    a.addEventListener('click', () => {
+      document.getElementById('navLinks').classList.remove('open');
+    });
+  });
+</script>
+
+</body>
+</html>
